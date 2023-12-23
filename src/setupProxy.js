@@ -4,7 +4,7 @@ module.exports = function (app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'https://api.company-information.service.gov.uk',
+      target: 'https://api.companieshouse.gov.uk',
       changeOrigin: true,
       pathRewrite: {
         '^/api': '',

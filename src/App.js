@@ -1,6 +1,7 @@
 import React from 'react';
 import CompanySearch from './CompanySearch';
 
+
 const App = () => {
   return (
     <div>
